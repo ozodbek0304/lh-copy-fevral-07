@@ -1,0 +1,15 @@
+{
+    "name_of_apartment": "Kvartira nomi",
+    "note": "Muhim eslatma",
+    "submit_request": "So'rov yuborish",
+    "call": "Qo'ng'iroq qilish",
+    "about_premises": "Binolar haqida",
+    "sum": "so'm",
+    "price": "Narxi",
+    "square": "Maydoni",
+    "floor": "Qavat",
+    "part": "Bo'lim",
+    "rooms_count": "Xonalar soni",
+    "shop": "Xarid qilish",
+    "m": "m"
+}

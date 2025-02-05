@@ -1,0 +1,32 @@
+{
+    "about_company": "О компании",
+    "projects": "Проекты",
+    "news": "Новости",
+    "contact": "Контакты",
+
+    "title": "Название объекта",
+    "desc": "Краткое примечание",
+    "btn": "Подробнее о проекте",
+    "video_btn": "Смотреть видео",
+
+    "mp_about_company": "О компании",
+    "thousand": "тыcяч",
+    "year": "лет",
+    "objects": "Объектов",
+    "satisfied_customers": "Довольные клиенты",
+    "experience": "лет на рынке",
+    "ma_company": "Подробнее о компании",
+    "pm_btn_contact": "Наши контакты",
+    
+    "in_progress": "В процессе",
+    "completed": "Завершенный",
+
+    "m_news": "Новости",
+
+    "form_contact": "Контакты",
+    "name": "Имя",
+    "send_request": "Отправить заявку",
+
+    "phone_input_error": "Введите номер телефона",
+    "name_input_error": "Введите свое имя"
+}

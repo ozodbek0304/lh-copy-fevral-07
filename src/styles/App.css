@@ -1,0 +1,96 @@
+.brd {
+  border: 1px solid red;
+}
+
+.m-container {
+  @apply mx-auto w-11/12 xs:w-[344px] sm:w-[590px] md:w-[720px] lg:w-[970px] xl:w-[1210px] 2xl:w-[1356px];
+}
+
+.shadow_box {
+  background-image: linear-gradient(#04050780, #DBDBDB00, #00000033),
+    linear-gradient(90deg, #04050780, #DBDBDB00);
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.button_main {
+  @apply flex justify-center items-center gap-x-[12px] font-medium text-lg w-full py-[16px] rounded-[12px];
+}
+
+.news_slider_btn {
+  @apply px-[13px] py-[11.7px] rounded-[12px] bg-white/80 sm:px-[20px] xl:px-[34px] xl:py-[19.6px];
+}
+
+.main_title {
+  @apply text-[2rem] font-medium sm:text-4xl lg:text-5xl xl:text-[56px];
+}
+
+.icon_box {
+  @apply w-[44px] h-[44px] rounded-full flex items-center justify-center bg-white;
+}
+
+.object_bg_shadow {
+  @apply inset-0 absolute;
+  background-image: linear-gradient(#04050780, #DBDBDB00, #00000033),
+    linear-gradient(90deg, #04050780, #DBDBDB00);
+}
+
+.object_patch {
+  @apply fill-[#FF8225] opacity-0 hover:opacity-[0.4] transition-all cursor-pointer;
+}
+
+.custom_style .ant-select {
+  border-radius: 12px;
+}
+
+.custom_style .ant-select-selector {
+  background-color: #040507 !important;
+  color: white !important;
+  border-color: transparent !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  padding: 0 16px !important;
+}
+
+.custom_style .ant-select-selection-search {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+.custom_style .ant-select-selection-placeholder {
+  color: white;
+}
+
+.custom_style .ant-select-arrow {
+  color: white;
+}
+
+.news_img_shadow {
+  @apply absolute inset-0 z-10 opacity-[0.6];
+  background-image: linear-gradient(135deg, #0000001a, #000);
+}
+
+.ant-select-dropdown {
+  background-color: #000;
+  border: 2px solid #1E1E1E;
+}
+
+.ant-select-item {
+  color: #fff !important;
+}
+
+.ant-select-item:hover {
+  background-color: hwb(0 100% 0% / 0.2) !important;
+}
+
+.ant-select-item-option-active {
+  background-color: #333; 
+  color: #fff;
+}
+
+.ant-select-item[aria-selected="true"] {
+  background-color: #333 !important;
+  color: white !important;
+}

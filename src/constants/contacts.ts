@@ -1,0 +1,1 @@
+export const main_phone = "+998 99 999 99 99"

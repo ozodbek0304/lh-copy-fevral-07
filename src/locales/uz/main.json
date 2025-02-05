@@ -1,0 +1,32 @@
+{
+    "about_company": "Kompaniya haqida",
+    "projects": "Loyihalar",
+    "news": "Yangiliklar",
+    "contact": "Kontakt",
+
+    "title": "Ob'ekt nomi",
+    "desc": "Tezkor eslatma",
+    "btn": "Loyiha haqida batafsil",
+    "video_btn": "Videoni tomosha qiling",
+
+    "mp_about_company": "Kompaniya haqida",
+    "thousand": "ming",
+    "year": "yil",
+    "objects": "Ob'ektlar",
+    "satisfied_customers": "Mijozlar",
+    "experience": "tajriba",
+    "ma_company": "Kompaniya haqida batafsil",
+    "pm_btn_contact": "Bizning kontaktlarimiz",
+    
+    "in_progress": "Jarayonda",
+    "completed": "Bajarildi",
+
+    "m_news": "Yangiliklar",
+
+    "form_contact": "Kontaktlar",
+    "name": "Ism",
+    "send_request": "So'rov yuboring",
+
+        "phone_input_error": "Telefon raqamingizni kiriting",
+    "name_input_error": "Ismingizni kiriting"
+}
