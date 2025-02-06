@@ -8,6 +8,8 @@ import { FourthObjectBlock1, FourthObjectBlock2, FourthObjectBlock3 } from "../.
 
 import {  FifthObjectBlock1, FifthObjectBlock10, FifthObjectBlock11, FifthObjectBlock12, FifthObjectBlock13, FifthObjectBlock14, FifthObjectBlock15, FifthObjectBlock16, FifthObjectBlock17, FifthObjectBlock18, FifthObjectBlock19, FifthObjectBlock2, FifthObjectBlock20, FifthObjectBlock21, FifthObjectBlock22, FifthObjectBlock23, FifthObjectBlock3, FifthObjectBlock4, FifthObjectBlock5, FifthObjectBlock6, FifthObjectBlock7, FifthObjectBlock8, FifthObjectBlock9 } from "../../../../components/ObjectBlocks/fifthObject"
 
+import { SixthObjectBlock1, SixthObjectBlock2, SixthObjectBlock3, SixthObjectBlock4, SixthObjectBlock5, SixthObjectBlock6, SixthObjectBlock7 } from "../../../../components/ObjectBlocks/SixthObject"
+
 const BuildingPatches = [
   [
     {
@@ -208,14 +210,49 @@ const BuildingPatches = [
       title: "5-obyekt",
     },
   ],
+  [
+    
+    {
+      icon: SixthObjectBlock7,
+      title: "6-obyekt",
+    },
+    {
+      icon: SixthObjectBlock6,
+      title: "6-obyekt",
+    },
+    {
+      icon: SixthObjectBlock5,
+      title: "6-obyekt",
+    },
+    {
+      icon: SixthObjectBlock4,
+      title: "6-obyekt",
+    },
+    {
+      icon: SixthObjectBlock3,
+      title: "6-obyekt",
+    },
+    {
+      icon: SixthObjectBlock2,
+      title: "6-obyekt",
+    },
+    {
+      icon: SixthObjectBlock1,
+      title: "6-obyekt",
+    },
+  ],
+  [
+  ],
+  [
+  ],
 ]
 
 const backgroundImage = [
   {
-    sectionClass:'relative h-[190px] overflow-x-auto sm:h-[370px] md:h-[450px] lg:h-[605px] xl:h-[760px] 2xl:h-[810px]',
-    divClass: 'w-[1295px] mx-auto relative',
-    imgClass: 'w-[1295px] h-[802px] rounded-[14px]',
-    imgSrc: '/images/example/new-building.png'
+    sectionClass:'relative h-[190px] overflow-x-auto sm:h-[370px] md:h-[450px] lg:h-[605px] xl:h-[760px] 2xl:h-[905px]',
+    divClass: 'w-[1280px] mx-auto relative',
+    imgClass: 'w-[1280px] h-[905px] rounded-[14px]',
+    imgSrc: '/images/example/1.jpg'
   },
   {
     sectionClass:'relative h-[190px] overflow-x-auto sm:h-[370px] md:h-[450px] lg:h-[605px] xl:h-[760px] 2xl:h-[905px]',
@@ -240,6 +277,24 @@ const backgroundImage = [
     divClass: 'w-[1280px] h-[905px] mx-auto relative',
     imgClass: 'w-[1280px] h-[905px] rounded-[14px]',
     imgSrc: '/images/obj-5/1.png'
+  },
+  {
+    sectionClass:'relative h-[190px] overflow-x-auto sm:h-[370px] md:h-[450px] lg:h-[605px] xl:h-[760px] 2xl:h-[794px]',
+    divClass: 'w-[1280px] h-[794px] mx-auto relative',
+    imgClass: 'w-[1280px] h-[794px] rounded-[14px]',
+    imgSrc: '/images/samarkand/1.png'
+  },
+  {
+    sectionClass:'relative h-[190px] overflow-x-auto sm:h-[370px] md:h-[450px] lg:h-[605px] xl:h-[760px] 2xl:h-[794px]',
+    divClass: 'w-[1280px] h-[794px] mx-auto relative',
+    imgClass: 'w-[1280px] h-[794px] rounded-[14px]',
+    imgSrc: '/images/urikzar/1.jpg'
+  },
+  {
+    sectionClass:'relative h-[190px] overflow-x-auto sm:h-[370px] md:h-[450px] lg:h-[605px] xl:h-[760px] 2xl:h-[794px]',
+    divClass: 'w-[1280px] h-[794px] mx-auto relative',
+    imgClass: 'w-[1280px] h-[794px] rounded-[14px]',
+    imgSrc: '/images/vernissage/1.png'
   }
 ]
 

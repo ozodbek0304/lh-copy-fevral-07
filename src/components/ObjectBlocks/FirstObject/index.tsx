@@ -8,19 +8,18 @@ export const FirstObjectBlock1 = () => {
   const [t] = useLanguages("object")
   const [isActive, setIsActive] = useState(false)
   const { setQueries } = useRouters()
-  const clickHandler = (): void => { setQueries({ block: 1 }) }
+  const clickHandler = (): void => { setQueries({ block: 25 }) }
 
   return (
-    <div className="absolute pointer-events-none top-[188px] left-[88px]">
-      <MTitleBuilding title={`${t("one_block")} 1`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 left-[185px] -top-[30px] w-[110px]`} />
+    <div className="absolute pointer-events-none top-[385px] left-[173px]">
+      <MTitleBuilding title={`${t("one_block")} 25`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 left-[185px] -top-[30px] w-[115px]`} />
 
-      <svg className="pointer-events-none" width="243" height="365" viewBox="0 0 243 365" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg className="pointer-events-none" width="155" height="240" viewBox="0 0 155 240" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           onClick={clickHandler}
           onMouseEnter={() => setIsActive(true)}
           onMouseLeave={() => setIsActive(false)}
-          style={{ pointerEvents: "all" }} className="object_patch" d="M151.5 11L183 0.5L187 3.5L187.5 9.5L204 23.5L203.5 21.5L207 21L210.5 24L211 32H209.5L225.5 159L226.5 159.5L228 170.5L214 174.5L231 298L238 305L239.5 321L240.5 323.5L238.5 324.5L242.5 330.5L227 337.5L225 335L221.5 336L223 339.5L183 356.5L180 354L175.5 356L177.5 358.5L161.5 365L157 359.5L150.5 362.5L147 357.5L137.5 361.5L130 353L133 350.5L131 348L126.5 350.5L106 327L106.5 326L98 316.5L106 312L103 308L95 311L88 303L92 300.5L89.5 298L85.5 301L57 269L58 268L50 259.5L57.5 255.5L53.5 252L44.5 255.5L38 247.5L42 245.5L40 243L35.5 246L17.5 225.5L17 223.5L10 212.5L16.5 210L14 193L12 190L27.5 184.5L3.5 71.5L1 69.5L0 62L39 48.5L41 54L48 51.5L47.5 46.5L110.5 24.5L113.5 29.5L119 27.5V22.5L143.5 14L145.5 15.5L150.5 16.5L151.5 16V11Z"
-        />
+          style={{ pointerEvents: "all" }} className="object_patch" d="M134 211.5L96 229.5L94.5 229L93.5 228L92 227L88.5 228V229L89 229.5H90V231L89 232L87.5 233L85.5 234L82.5 236L81 236.5L78.5 237.5L77 238L75 238.5L73.5 238L72.5 236L71.5 235L71 233.5H69.5L68 234L67.5 234.5H66.5L65 235H63.5L62.5 233.5L61.5 232L60 231H58.5L57 232L55.5 233L53.5 234.5L52.5 235H51L43.5 227V225.5L44 224H45.5L46 223.5V222.5V221H45L40 223.5L22 201L25.5 197.5L24 195.5L23.5 195L22.5 194.5L22 195V196.5H20H18L13 189V187L20 184L18 181.5V179V175.5L15.5 172.5V170H18V165.5L15.5 162.5L27 157.5L1.5 21.5L8 18.5L10 21.5L24 16L28 14.5L32 11.5H36L48.5 5.5L52 7.5L61.5 4H63L69.5 1H72L84 13V7.5L95 3H98.5L101.5 6.5V11.5L121 31L121.5 29.5L123.5 28.5L127 32L128.5 39.5L126 41L130 69.5L143 168L149.5 175.5L151 193H152L152.5 195.5L151 196.5L154 201.5L138 210.5L135.5 207.5L132.5 208.5L134 211.5Z" stroke="black"/>
       </svg>    
 
     </div>

@@ -5,16 +5,17 @@ import ICard from "../ICard"
 // const screenWidth = window.innerWidth;
 const dataList = [
   {
-    photo: "https://res.cloudinary.com/dtrhqmm9b/image/upload/v1725611567/05_1_seoyrp.png",
+    // photo: "https://res.cloudinary.com/dtrhqmm9b/image/upload/v1725611567/05_1_seoyrp.png",
+    photo: "../../../../public/images/example/1.jpg",
     title: "Building",
-    status: "IN_PROCESS",
+    status: "COMPLETED",
     id: 1,
     location: "Яккасарайский район"
   },
   {
     photo: "../../../../public/images/xonobod/1.jpg",
     title: "Building",
-    status: "IN_PROCESS",
+    status: "COMPLETED",
     id: 2,
     location: "Янгихаятский район"
   },
@@ -37,6 +38,27 @@ const dataList = [
     title: "Building",
     status: "IN_PROCESS",
     id: 5,
+    location: "Какойто район"
+  },
+  {
+    photo: "../../../../public/images/samarkand/1.png",
+    title: "Building",
+    status: "IN_PROCESS",
+    id: 6,
+    location: "Какойто район"
+  },
+  {
+    photo: "../../../../public/images/urikzar/1.jpg",
+    title: "Building",
+    status: "IN_PROCESS",
+    id: 7,
+    location: "Какойто район"
+  },
+  {
+    photo: "../../../../public/images/vernissage/1.png",
+    title: "Building",
+    status: "IN_PROCESS",
+    id: 8,
     location: "Какойто район"
   },
 ]

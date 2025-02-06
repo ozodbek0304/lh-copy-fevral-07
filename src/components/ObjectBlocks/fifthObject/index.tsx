@@ -391,17 +391,17 @@ export const FifthObjectBlock20 = () => {
   const [t] = useLanguages("object")
   const [isActive, setIsActive] = useState(false)
   const { setQueries } = useRouters()
-  const clickHandler = (): void => { setQueries({ block: 9 }) }
+  const clickHandler = (): void => { setQueries({ block: 20 }) }
 
   return (
-    <div className="absolute pointer-events-none top-[295px] left-[553px]">
-      <MTitleBuilding title={`${t("one_block")} 9`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 left-[150px] top-[30px] w-[110px]`} />
-      <svg className="pointer-events-none" width="133" height="203" viewBox="0 0 133 203" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="absolute pointer-events-none top-[538px] left-[996px]">
+      <MTitleBuilding title={`${t("one_block")} 20`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 left-[150px] top-[30px] w-[120px]`} />
+      <svg className="pointer-events-none" width="157" height="167" viewBox="0 0 157 167" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           onClick={clickHandler}
           onMouseEnter={() => setIsActive(true)}
           onMouseLeave={() => setIsActive(false)}
-          style={{ pointerEvents: "all" }} className="object_patch" d="M131.5 40.5L58 1L37 27V44L32 49.5L26.5 46L25 45.5H23.5L22.5 46L3 70.5L2.5 72L2 73L2.5 74L4 76L1.5 175H2.5L4 176L5.5 177L6.5 177.5L7 178L8 178.5H9H10V177.5H11H12H13L14 178H15H17.5L18 178.5L19 179L21 179.5V180.5V181.5L22 183L23.5 184L24 186L25 187L31.5 191.5L33 190V188.5V187L34 186L35 184H36H37.5L39 185L40 186L41 187H41.5L43 188V189L44.5 189.5L45 189H46L46.5 188L47.5 188.5L48.5 190L49.5 191H50.5H52V191.5L52.5 192V193H53.5H54.5L55 194L55.5 194.5L56 195.5L55.5 196.5V197.5V198.5V199.5L57 200L57.5 201L58.5 201.5L59.5 201V199.5L60.5 198.5H62L63 197.5L64 196.5H65.5L67 195.5H68V193.5L69 193L71 192H72V191V190L73.5 188.5L75 188H77H79H80.5V189.5H82V191H83H84V189.5L85 188L86.5 185V179.5V173.5L91.5 166L97.5 168.5L100.5 163.5V160.5V158L103 155.5H105.5L109.5 149.5L114.5 139.5V136L131.5 40.5Z" stroke="black"/>
+          style={{ pointerEvents: "all" }} className="object_patch" d="M17 61V62.5L55.5 108L46.5 117L48 119L39 126.5L41 129L1 164.5V166H3L6 164.5L9.5 161.5L17 156.5L19 155.5L21 156.5V158L23.5 156.5L42 143.5L79.5 112.5L122 74.5V72.5L139.5 59.5V57L156 42L142 27L141 25L139.5 24L138 23L117.5 1H116H115L108.5 6H107L106 5V4.5H104.5H103.5L102.5 5L101 6L100 6.5L99 6H98H96.5L95.5 6.5L94 5H92.5L79.5 13.5L55 29L54 30L28.5 46V48L17 61Z" stroke="black"/>
       </svg>
     </div>
   )
@@ -413,14 +413,14 @@ export const FifthObjectBlock21 = () => {
   const clickHandler = (): void => { setQueries({ block: 9 }) }
 
   return (
-    <div className="absolute pointer-events-none top-[295px] left-[553px]">
-      <MTitleBuilding title={`${t("one_block")} 9`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 left-[150px] top-[30px] w-[110px]`} />
-      <svg className="pointer-events-none" width="133" height="203" viewBox="0 0 133 203" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="absolute pointer-events-none top-[471px] left-[1036px]">
+      <MTitleBuilding title={`${t("one_block")} 21`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 -left-[90px] top-[30px] w-[120px]`} />
+      <svg className="pointer-events-none" width="195" height="182" viewBox="0 0 195 182" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           onClick={clickHandler}
           onMouseEnter={() => setIsActive(true)}
           onMouseLeave={() => setIsActive(false)}
-          style={{ pointerEvents: "all" }} className="object_patch" d="M131.5 40.5L58 1L37 27V44L32 49.5L26.5 46L25 45.5H23.5L22.5 46L3 70.5L2.5 72L2 73L2.5 74L4 76L1.5 175H2.5L4 176L5.5 177L6.5 177.5L7 178L8 178.5H9H10V177.5H11H12H13L14 178H15H17.5L18 178.5L19 179L21 179.5V180.5V181.5L22 183L23.5 184L24 186L25 187L31.5 191.5L33 190V188.5V187L34 186L35 184H36H37.5L39 185L40 186L41 187H41.5L43 188V189L44.5 189.5L45 189H46L46.5 188L47.5 188.5L48.5 190L49.5 191H50.5H52V191.5L52.5 192V193H53.5H54.5L55 194L55.5 194.5L56 195.5L55.5 196.5V197.5V198.5V199.5L57 200L57.5 201L58.5 201.5L59.5 201V199.5L60.5 198.5H62L63 197.5L64 196.5H65.5L67 195.5H68V193.5L69 193L71 192H72V191V190L73.5 188.5L75 188H77H79H80.5V189.5H82V191H83H84V189.5L85 188L86.5 185V179.5V173.5L91.5 166L97.5 168.5L100.5 163.5V160.5V158L103 155.5H105.5L109.5 149.5L114.5 139.5V136L131.5 40.5Z" stroke="black"/>
+          style={{ pointerEvents: "all" }} className="object_patch" d="M80 23L116.5 0.5H117L121 4L122.5 5.5L124 7L125 8L126.5 9L127 8.5L128 8L129 8.5L137.5 16.5L138.5 15.5H141L194 69V70.5L138.5 116.5L102 146.5L93.5 153L91 154L89 156L87.5 157L85 159L82.5 161L79.5 162L78 163L76 164.5L73.5 166L71.5 167.5L70 169H68L67 170.5L65.5 172L64 173H62L59.5 174.5L57.5 177L54.5 178H52L50 177L48 178L45.5 180L43 181.5H41V180L83 142V140.5L100.5 127V124.5L117 110L104.5 96.5L103 95L102 93L100.5 92L99 91L81 71.5L80 70.5L79 69.5L78 69H77H76L73.5 71L71.5 72.5L70 73.5L69 74H68L67.5 73.5L67 72.5H66H65H64L63.5 73L63 73.5L62 74L61 74.5L60.5 74H59.5H58.5H57.5L56.5 74.5L55.5 73.5L54.5 73H53L19 95L15.5 97.5L14.5 98.5L0.5 107L80 23Z" stroke="black"/>
       </svg>
     </div>
   )
@@ -429,17 +429,17 @@ export const FifthObjectBlock22 = () => {
   const [t] = useLanguages("object")
   const [isActive, setIsActive] = useState(false)
   const { setQueries } = useRouters()
-  const clickHandler = (): void => { setQueries({ block: 9 }) }
+  const clickHandler = (): void => { setQueries({ block: 22 }) }
 
   return (
-    <div className="absolute pointer-events-none top-[295px] left-[553px]">
-      <MTitleBuilding title={`${t("one_block")} 9`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 left-[150px] top-[30px] w-[110px]`} />
-      <svg className="pointer-events-none" width="133" height="203" viewBox="0 0 133 203" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="absolute pointer-events-none top-[362px] left-[952px]">
+      <MTitleBuilding title={`${t("one_block")} 22`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 left-[180px] top-[30px] w-[120px]`} />
+      <svg className="pointer-events-none" width="202" height="218" viewBox="0 0 202 218" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           onClick={clickHandler}
           onMouseEnter={() => setIsActive(true)}
           onMouseLeave={() => setIsActive(false)}
-          style={{ pointerEvents: "all" }} className="object_patch" d="M131.5 40.5L58 1L37 27V44L32 49.5L26.5 46L25 45.5H23.5L22.5 46L3 70.5L2.5 72L2 73L2.5 74L4 76L1.5 175H2.5L4 176L5.5 177L6.5 177.5L7 178L8 178.5H9H10V177.5H11H12H13L14 178H15H17.5L18 178.5L19 179L21 179.5V180.5V181.5L22 183L23.5 184L24 186L25 187L31.5 191.5L33 190V188.5V187L34 186L35 184H36H37.5L39 185L40 186L41 187H41.5L43 188V189L44.5 189.5L45 189H46L46.5 188L47.5 188.5L48.5 190L49.5 191H50.5H52V191.5L52.5 192V193H53.5H54.5L55 194L55.5 194.5L56 195.5L55.5 196.5V197.5V198.5V199.5L57 200L57.5 201L58.5 201.5L59.5 201V199.5L60.5 198.5H62L63 197.5L64 196.5H65.5L67 195.5H68V193.5L69 193L71 192H72V191V190L73.5 188.5L75 188H77H79H80.5V189.5H82V191H83H84V189.5L85 188L86.5 185V179.5V173.5L91.5 166L97.5 168.5L100.5 163.5V160.5V158L103 155.5H105.5L109.5 149.5L114.5 139.5V136L131.5 40.5Z" stroke="black"/>
+          style={{ pointerEvents: "all" }} className="object_patch" d="M37 57L1.5 111L2 112L3 113H3.5H4.5H6.5H7L8.5 114L9.5 115.5V116.5L11 117.5V119V120V121.5V122.5V124L9.5 125.5L11 126.5L12 125.5L13.5 125H15.5V126.5L14 128.5L12.5 129.5L11 131H9.5L8.5 132.5V133.5L8 135.5L7 136H6.5L5.5 136.5V137.5L6.5 139L7 140H8.5V141L9.5 142.5H11V144.5V146.5V148.5H12.5L14 150.5V152.5V153.5L15.5 155H17V157H18.5H20V159V160.5L23 163.5H25L27 162.5V161L28.5 160.5L29.5 161L30.5 162.5L32 163.5L34 165.5V167.5L35.5 169.5H37V171L39 173L42.5 176L44 178L42.5 180V181.5L44 183.5L45 184.5L47 185.5L49 187V190L50 191L51.5 193L54 196H55.5L58 198L60 199.5L62 201.5L64.5 204.5L67 207L68 210L70.5 213.5L73 211.5H74.5L76 213.5L77.5 215L80 217H81.5L84 215L162 132.5L199 109.5L201 107.5L176 83L178 80.5L161 63.5L162 62.5V60.5L141.5 39.5H139.5H138L122 24H119L96 1L58.5 24L37 57Z" stroke="black"/>
       </svg>
     </div>
   )
@@ -448,17 +448,17 @@ export const FifthObjectBlock23 = () => {
   const [t] = useLanguages("object")
   const [isActive, setIsActive] = useState(false)
   const { setQueries } = useRouters()
-  const clickHandler = (): void => { setQueries({ block: 9 }) }
+  const clickHandler = (): void => { setQueries({ block: 23 }) }
 
   return (
-    <div className="absolute pointer-events-none top-[295px] left-[553px]">
-      <MTitleBuilding title={`${t("one_block")} 9`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 left-[150px] top-[30px] w-[110px]`} />
-      <svg className="pointer-events-none" width="133" height="203" viewBox="0 0 133 203" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="absolute pointer-events-none top-[295px] left-[876px]">
+      <MTitleBuilding title={`${t("one_block")} 23`} className={`${isActive ? "opacity-100" : "opacity-0"} transition-all duration-300 left-[180px] top-[0px] w-[120px]`} />
+      <svg className="pointer-events-none" width="173" height="181" viewBox="0 0 173 181" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           onClick={clickHandler}
           onMouseEnter={() => setIsActive(true)}
           onMouseLeave={() => setIsActive(false)}
-          style={{ pointerEvents: "all" }} className="object_patch" d="M131.5 40.5L58 1L37 27V44L32 49.5L26.5 46L25 45.5H23.5L22.5 46L3 70.5L2.5 72L2 73L2.5 74L4 76L1.5 175H2.5L4 176L5.5 177L6.5 177.5L7 178L8 178.5H9H10V177.5H11H12H13L14 178H15H17.5L18 178.5L19 179L21 179.5V180.5V181.5L22 183L23.5 184L24 186L25 187L31.5 191.5L33 190V188.5V187L34 186L35 184H36H37.5L39 185L40 186L41 187H41.5L43 188V189L44.5 189.5L45 189H46L46.5 188L47.5 188.5L48.5 190L49.5 191H50.5H52V191.5L52.5 192V193H53.5H54.5L55 194L55.5 194.5L56 195.5L55.5 196.5V197.5V198.5V199.5L57 200L57.5 201L58.5 201.5L59.5 201V199.5L60.5 198.5H62L63 197.5L64 196.5H65.5L67 195.5H68V193.5L69 193L71 192H72V191V190L73.5 188.5L75 188H77H79H80.5V189.5H82V191H83H84V189.5L85 188L86.5 185V179.5V173.5L91.5 166L97.5 168.5L100.5 163.5V160.5V158L103 155.5H105.5L109.5 149.5L114.5 139.5V136L131.5 40.5Z" stroke="black"/>
+          style={{ pointerEvents: "all" }} className="object_patch" d="M115 1.5L66.5 27.5L64.5 29L66 32L58 37L59 40L52.5 43.5L3.5 139.5L1 146.5L2.5 147.5V149.5L4.5 151.5H6.5V153H8.5L9.5 154H11L12.5 156V158V159.5H14L15.5 161H18L19.5 162.5H21V165H23L24.5 167L26.5 168.5V170L24.5 172.5V175L26.5 176.5L28 178.5L29 177.5L31.5 175H34.5L35.5 176L37.5 174L43 170L46.5 168.5L48.5 170L52 172.5H53.5H55H57L58 174L60 176L61.5 176.5L63.5 177.5L65 178.5H66.5V180L68.5 178.5H70.5H72L73 177.5H74.5L75.5 176.5L76.5 176H78.5L135 89L171.5 68.5L165.5 62.5L167 59.5L160 51.5L161.5 49L115 1.5Z" stroke="black"/>
       </svg>
     </div>
   )

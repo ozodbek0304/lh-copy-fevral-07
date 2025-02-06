@@ -4,7 +4,7 @@ import { scrollById } from "../../../utils/scrollById"
 import useMainFetch from "../../../hooks/fetching/useMainFetch"
 import { useLanguages } from "../../../hooks/useLanguages"
 
-function IIntroduce() {
+function IIntroduce({objectId}) {
   const [t] = useLanguages("object")
 
   const { data, isLoading } = useMainFetch({
@@ -12,10 +12,45 @@ function IIntroduce() {
     endpoint: `/companies/`,
   })
 
+  const staticData = [
+    {
+      img: "url(/images/example/building.jpg)",
+      video: 'https://www.youtube.com/watch?v=_qEG9X3G7q0&ab_channel=Underworld'
+    },
+    {
+      img: "url(/images/xonobod/3.jpg)",
+      video: 'https://www.youtube.com/watch?v=_qEG9X3G7q0&ab_channel=Underworld'
+    },
+    {
+      img: "url(/images/example/building.jpg)",
+      video: 'https://www.youtube.com/watch?v=_qEG9X3G7q0&ab_channel=Underworld'
+    },
+    {
+      img: "url(/images/example/building.jpg)",
+      video: 'https://www.youtube.com/watch?v=_qEG9X3G7q0&ab_channel=Underworld'
+    },
+    {
+      img: "url(/images/obj-5/2.jpg)",
+      video: 'https://www.youtube.com/watch?v=_qEG9X3G7q0&ab_channel=Underworld'
+    },
+    {
+      img: "url(/images/samarkand/1.png)",
+      video: 'https://www.youtube.com/watch?v=_qEG9X3G7q0&ab_channel=Underworld'
+    },
+    {
+      img: "url(/images/urikzar/2.jpg)",
+      video: 'https://www.youtube.com/watch?v=_qEG9X3G7q0&ab_channel=Underworld'
+    },
+    {
+      img: "url(/images/vernissage/3.jpg)",
+      video: 'https://www.youtube.com/watch?v=_qEG9X3G7q0&ab_channel=Underworld'
+    },
+  ]
+
 
   return (
     <main
-      style={{ backgroundImage: "url(/images/example/building.jpg)" }}
+      style={{ backgroundImage: staticData[objectId - 1].img }}
       className="bg-center bg-cover relative h-[343px] rounded-[12px] px-[16px] flex items-center sm:h-[400px] md:px-[120px] lg:px-0 lg:h-[600px] xl:h-[720px]"
     >
       <div className="object_bg_shadow"></div>
@@ -29,7 +64,7 @@ function IIntroduce() {
         </div>
       </div>
 
-      <Link to="https://www.youtube.com/watch?v=_qEG9X3G7q0&ab_channel=Underworld" className="items-center gap-x-[24px] w-[235px] absolute bottom-[50px] right-[36px] xl:bottom-[80px] xl:right-[56px] scale-[0.9] xl:scale-100 hidden lg:flex">
+      <Link to={staticData[objectId - 1].video} className="items-center gap-x-[24px] w-[235px] absolute bottom-[50px] right-[36px] xl:bottom-[80px] xl:right-[56px] scale-[0.9] xl:scale-100 hidden lg:flex">
         <span className="flex-1 font-medium text-xl text-end">{t("watch_video")}</span>
         <PlayIcon className="w-[60px] h-auto" fill="#fff" playFill="#FF8225" />
       </Link>

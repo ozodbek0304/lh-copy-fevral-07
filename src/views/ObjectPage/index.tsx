@@ -45,7 +45,7 @@ function ObjectPage() {
 
   return (
     <div className="m-container">
-      <IIntroduce />
+      <IIntroduce objectId={objectId} />
       <IObjectInfo objectData={objectData} />
       <IObjectSelect objectId={objectId}/>
       <ICategory />
