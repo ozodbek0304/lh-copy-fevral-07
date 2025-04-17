@@ -2,7 +2,7 @@ import axios from "axios";
 // import { useStorage } from "./storage";
 
 // export const baseURL = "https://apislandhouse.pythonanywhere.com";
-export const baseURL = "http://188.225.24.22:8082";
+export const baseURL = "http://198.163.206.64";
 
 
 const requestAuth = axios.create({

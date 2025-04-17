@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react"
 import { LongArrowIcon } from "../Icons";
-import {useQuery} from 'react-query'
-import { useRef, useEffect } from "react"
+import { useRef } from "react"
 import SwiperCore from "swiper"
 import useMainFetch from "../../hooks/fetching/useMainFetch"
 
