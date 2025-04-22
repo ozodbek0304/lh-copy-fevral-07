@@ -1,19 +1,17 @@
-import { useLanguages } from "../../../../../hooks/useLanguages";
 
 function IStatistics({data}:any) {
-  const [t] = useLanguages("main")
 
   const statistics_list = [
     {
-      title: t("objects"),
+      title: data?.key1,
       value: data?.obj1,
     },
     {
-      title: t("satisfied_customers"),
+      title: data?.key2,
       value: <span>{data?.obj2}<sub>тыcяч</sub></span>,
     },
     {
-      title: t("experience"),
+      title: data?.key3,
       value: <span>{data?.obj3}<sub>лет</sub></span>,
     },
   ]
