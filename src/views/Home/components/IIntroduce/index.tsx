@@ -43,8 +43,7 @@ function IIntroduce() {
   const prevSlide = () => swiperRef.current?.slidePrev();
   const nextSlide = () => swiperRef.current?.slideNext();
 
-  const currentItem = isSuccess &&
-  data?.length > 0 && data[currentSlideIndex];
+  const currentItem = isSuccess && data?.length > 0 && data[currentSlideIndex];
 
   return (
     <div>
@@ -84,6 +83,7 @@ function IIntroduce() {
                 {currentItem.description}
               </h4>
               <Link
+                target="_blank"
                 to={currentItem.url}
                 className="text-center text-[var(--orange)] py-[10px] px-[8px] w-full rounded-[8px] bg-white mt-[24px] lg:w-auto lg:px-[10px]"
               >
@@ -109,6 +109,7 @@ function IIntroduce() {
 
             {/* YouTube Link */}
             <Link
+              target="_blank"
               to={currentItem.youtube_url}
               className="items-center gap-x-[24px] hidden lg:flex absolute bottom-[90px] right-[30px] z-20 xl:right-[56px] 2xl:bottom-[115px]"
             >
