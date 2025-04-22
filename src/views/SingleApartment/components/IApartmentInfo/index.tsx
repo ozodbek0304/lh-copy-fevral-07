@@ -1,4 +1,3 @@
-import { baseURL } from "../../../../utils/requestAuth"
 import { useCallback, useState } from "react"
 import IFormModal from "../IFormModal"
 import { useLanguages } from "../../../../hooks/useLanguages"
@@ -64,8 +63,8 @@ function IApartmentInfo({ data }: ApartmentDataType) {
 
       <img
         className="w-full h-[242px] sm:h-[300px] md:h-[350px] bg-cover bg-center rounded-[12px] lg:h-[410px] lg:w-[430px] object-center object-cover lg:flex-1"
-        // src="https://furnishd.com.au/cdn/shop/files/Collins-Arch-000_Large_landscape_1.jpg?v=1683286881&width=1280"
-        src={baseURL + data?.photo}
+        src="https://furnishd.com.au/cdn/shop/files/Collins-Arch-000_Large_landscape_1.jpg?v=1683286881&width=1280"
+        // src={baseURL + data?.photo}
         alt="Apartment image"
       />
       {formModal && <IFormModal onClose={onClose} />}
