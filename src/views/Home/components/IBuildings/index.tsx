@@ -6,56 +6,56 @@ import ICard from "../ICard"
 const dataList = [
   {
     // photo: "https://res.cloudinary.com/dtrhqmm9b/image/upload/v1725611567/05_1_seoyrp.png",
-    photo: "../../../../public/images/example/1.jpg",
+    photo: "/images/example/1.jpg",
     title: "Building",
     status: "COMPLETED",
     id: 1,
     location: "Яккасарайский район"
   },
   {
-    photo: "../../../../public/images/xonobod/1.jpg",
+    photo: "/images/xonobod/1.jpg",
     title: "Building",
     status: "COMPLETED",
     id: 2,
     location: "Янгихаятский район"
   },
   {
-    photo: "../../../../public/images/uysozlar/uysozlar.png",
+    photo: "/images/uysozlar/uysozlar.png",
     title: "Building",
     status: "IN_PROCESS",
     id: 3,
     location: "Какойто район"
   },
   {
-    photo: "../../../../public/images/uchtalik-uy/1.png",
+    photo: "/images/uchtalik-uy/1.png",
     title: "Building",
     status: "IN_PROCESS",
     id: 4,
     location: "Какойто район"
   },
   {
-    photo: "../../../../public/images/obj-5/1.png",
+    photo: "/images/obj-5/1.png",
     title: "Building",
     status: "IN_PROCESS",
     id: 5,
     location: "Какойто район"
   },
   {
-    photo: "../../../../public/images/samarkand/1.png",
+    photo: "/images/samarkand/1.png",
     title: "Building",
     status: "IN_PROCESS",
     id: 6,
     location: "Какойто район"
   },
   {
-    photo: "../../../../public/images/urikzar/1.jpg",
+    photo: "/images/urikzar/1.jpg",
     title: "Building",
     status: "IN_PROCESS",
     id: 7,
     location: "Какойто район"
   },
   {
-    photo: "../../../../public/images/vernissage/1.png",
+    photo: "/images/vernissage/1.png",
     title: "Building",
     status: "IN_PROCESS",
     id: 8,
