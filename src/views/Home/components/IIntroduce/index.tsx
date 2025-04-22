@@ -61,7 +61,7 @@ function IIntroduce() {
             data?.map((item: Banner) => (
               <SwiperSlide key={item.id}>
                 <img
-                  className="w-full h-[380px] object-cover rounded-[16px] lg:h-[400px] xl:h-[450px] 2xl:h-[580px]"
+                  className="w-full h-[380px] object-cover bg-center rounded-[16px] lg:h-[400px] xl:h-[450px] 2xl:h-[580px]"
                   src={item.image}
                   alt={item.title}
                 />
@@ -82,13 +82,17 @@ function IIntroduce() {
               <h4 className="font-medium my-[4px] xl:text-[40px] lg:mb-[16px] xl:mb-[10px]">
                 {currentItem.description}
               </h4>
-              <Link
-                target="_blank"
-                to={currentItem.url}
-                className="text-center text-[var(--orange)] py-[10px] px-[8px] w-full rounded-[8px] bg-white mt-[24px] lg:w-auto lg:px-[10px]"
-              >
-                {t("btn")}
-              </Link>
+              {currentItem.url ? (
+                <Link
+                  target="_blank"
+                  to={currentItem.url}
+                  className="text-center text-[var(--orange)] py-[10px] px-[8px] w-full rounded-[8px] bg-white mt-[24px] lg:w-auto lg:px-[10px]"
+                >
+                  {t("btn")}
+                </Link>
+              ) : (
+                ""
+              )}
             </div>
 
             {/* Dots */}
@@ -108,23 +112,25 @@ function IIntroduce() {
             </ul>
 
             {/* YouTube Link */}
-            <Link
-              target="_blank"
-              to={currentItem.youtube_url}
-              className="items-center gap-x-[24px] hidden lg:flex absolute bottom-[90px] right-[30px] z-20 xl:right-[56px] 2xl:bottom-[115px]"
-            >
-              <span className="text-[var(--orange)] font-medium">
-                {t("video_btn")}
-              </span>
-              <PlayIcon />
-            </Link>
+            {currentItem.youtube_url ? (
+              <Link
+                target="_blank"
+                to={currentItem.youtube_url}
+                className="items-center gap-x-[24px] hidden lg:flex absolute bottom-[90px] right-[30px] z-20 xl:right-[56px] 2xl:bottom-[115px]"
+              >
+                <span className="text-[var(--orange)] font-medium">
+                  {t("video_btn")}
+                </span>
+                <PlayIcon />
+              </Link>
+            ) : null}
           </div>
         )}
       </div>
 
       {/* Small Swiper with preview thumbnails */}
       <div className="m-container">
-        <div className="flex justify-end relative -top-[15px] z-10 lg:justify-between lg:-top-[70px] xl:gap-x-[30px] 2xl:-top-[85px]">
+        <div className="flex justify-end items-start relative -top-[15px] z-10 lg:justify-between lg:-top-[70px] xl:gap-x-[30px] 2xl:-top-[85px]">
           {/* Arrows */}
           <div className="hidden lg:flex flex-1 justify-center xl:gap-x-[26px]">
             <button
