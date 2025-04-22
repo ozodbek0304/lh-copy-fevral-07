@@ -9,7 +9,7 @@ function IAboutCompany() {
   const [t] = useLanguages("main");
 
   const { data } = useMainFetch({
-    key: "about-company",
+    key: "about",
     endpoint: `/about-company/`,
   });
 
