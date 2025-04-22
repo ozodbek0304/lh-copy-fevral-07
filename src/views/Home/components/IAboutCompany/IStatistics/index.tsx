@@ -1,31 +1,20 @@
 import { useLanguages } from "../../../../../hooks/useLanguages";
 
-// type PropsType = {
-//   objectsCount: number;
-//   clients: number;
-//   years: number;
-// }
-
-
-// function IStatistics({ objectsCount, clients, years }: PropsType) {
-function IStatistics() {
+function IStatistics({data}:any) {
   const [t] = useLanguages("main")
 
   const statistics_list = [
     {
       title: t("objects"),
-      // value: objectsCount,
-      value: 50,
+      value: data?.obj1,
     },
     {
       title: t("satisfied_customers"),
-      // value: <span>{clients}<sub>тыcяч</sub></span>,
-      value: <span>{400}<sub>тыcяч</sub></span>,
+      value: <span>{data?.obj2}<sub>тыcяч</sub></span>,
     },
     {
       title: t("experience"),
-      // value: <span>{years}<sub>лет</sub></span>,
-      value: <span>{20}<sub>лет</sub></span>,
+      value: <span>{data?.obj3}<sub>лет</sub></span>,
     },
   ]
 
